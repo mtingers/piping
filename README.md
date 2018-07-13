@@ -18,7 +18,7 @@ One might ask, "Why not just write a python, shell, ... script"?  You probably s
 * Strict formatting.
 * Parsing requires 'tabs' to be 4 spaces. Tabs will not work. 2 space tabs won't work, etc...
 * if, while, for, etc do not exist.
-* Expressions, bit shifting, unary, etc do not exist.
+* Expressions, bit shifting, unary operators, etc do not exist.
 
 # TODO
 
