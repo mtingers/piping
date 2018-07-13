@@ -4,8 +4,11 @@ A simple language to glue programs together through a pipeline.
 
 # Status
 
-* Experimental
-* Fragile
+* Still experimental. Likely to change quickly.
+* Fragile. Needs more tests and better parsing.
+
+One might ask, "Why not just write a python, shell, ... script"?  You probably should.  But the simple syntax and readability might be for you since doing the same (outside of a shell script) typically requires a lot of boiler plate code.
+ 
 
 # Features
 
@@ -16,8 +19,6 @@ A simple language to glue programs together through a pipeline.
 * Parsing requires 'tabs' to be 4 spaces. Tabs will not work. 2 space tabs won't work, etc...
 * if, while, for, etc do not exist.
 * Expressions, bit shifting, unary, etc do not exist.
-
-One might ask, "Why not just write a python or shell script"?  Well, you probably should.
 
 # TODO
 
