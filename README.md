@@ -17,7 +17,7 @@ A simple language to glue programs together through a pipeline.
 * if, while, for, etc do not exist.
 * Expressions, bit shifting, unary, etc do not exist.
 
-One might ask, "Why not just use a shell script"?  Well, you probably should.
+One might ask, "Why not just write a python or shell script"?  Well, you probably should.
 
 # TODO
 
