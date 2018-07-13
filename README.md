@@ -23,11 +23,11 @@ One might ask, "Why not just write a python, shell, ... script"?  You probably s
 # TODO
 
 1. Add other transport types besides 'exec' (http[s] with things like auth and customer headers, sockets [tcp/udp], etc).
-2. Add optional intermediate message communication/transaction format with type enforcement.
-3. Add import (like Python import).
-4. Add ability to create functions and not stuck to 'main'.
-5. Add compiler detection of variables only being referenced once and fold into a single pipeline.
-6. Add race-condition detection and output variable locking.
+2. Add import (like Python import).
+3. Add ability to create functions and not be stuck to 'main'.
+4. Add compiler detection of variables only being referenced once and fold into a single pipeline.
+5. Add race-condition detection and output variable locking.
+6. Add optional intermediate message communication/transaction format with type enforcement.
 7. Add multi-pipe support. For example, send the output of find to grep and sed simultaneously and store in x and y variables:
 ```bash
 p.find(path='/foo') -> [p.grep(pattern='foo') :: x] + [p.sed(filter='s/foo/bar/g') :: y]
