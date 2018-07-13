@@ -14,6 +14,8 @@ A simple language to glue programs together through a pipeline.
 * Easy to program in.
 * Strict formatting.
 * Parsing requires 'tabs' to be 4 spaces. Tabs will not work. 2 space tabs won't work, etc...
+* if, while, for, etc do not exist.
+* Expressions, bit shifting, unary, etc do not exist.
 
 One might ask, "Why not just use a shell script"?  Well, you probably should.
 
@@ -28,7 +30,6 @@ One might ask, "Why not just use a shell script"?  Well, you probably should.
 ```bash
 p.find(path='/foo') -> [p.grep(pattern='foo') :: x] + [p.sed(filter='s/foo/bar/g') :: y]
 ```
-
 
 ## Examples
 
