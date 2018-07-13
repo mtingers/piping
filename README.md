@@ -2,6 +2,20 @@
 
 A simple language to glue programs together through a pipeline.
 
+# Status
+
+* Experimental
+* Fragile
+
+One might ask, "Why not just use a shell script"?  Well, you probably should.
+
+# TODO
+
+1. Add other transport types besides 'exec' (http[s] with things like auth and customer headers, sockets [tcp/udp], etc).
+2. Add optional intermediate message communication/transaction format with type enforcement.
+3. Add import (like Python import).
+4. Add ability to create functions and not stuck to 'main'.
+
 ## Examples
 
 ```bash
