@@ -7,6 +7,14 @@ A simple language to glue programs together through a pipeline.
 * Experimental
 * Fragile
 
+# Features
+
+* Simple and limited in capabilities.  Feature-less on purpose.
+* Easy to understand syntax.
+* Easy to program in.
+* Strict formatting.
+* Parsing requires 'tabs' to be 4 spaces. Tabs will not work. 2 space tabs won't work, etc...
+
 One might ask, "Why not just use a shell script"?  Well, you probably should.
 
 # TODO
